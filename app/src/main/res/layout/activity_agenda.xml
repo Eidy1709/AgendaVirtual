@@ -115,13 +115,24 @@
                         </com.google.android.material.textfield.TextInputLayout>
                     </LinearLayout>
 
+
                     <Button
                         android:id="@+id/btnSaveEntry"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Guardar Anotación" />
+
+                    <Button
+                        android:id="@+id/btnNuevaTarea"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:minHeight="48dp"
+                        android:text="Nueva tarea" />
+
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
+
 
             <!-- Sección: Filtrar y Ver Anotaciones de un Día -->
             <com.google.android.material.card.MaterialCardView
